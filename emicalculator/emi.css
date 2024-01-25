@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.div {
+    width: 60%;
+    height: 150px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.div1 {
+    width: 40%;
+    height: 150px;
+    background-color: olivedrab;
+}
+
+.div2 {
+    width: 30%;
+    height: 150px;
+    background-color: tomato;
+}
+
+.div3 {
+    width: 30%;
+    height: 150px;
+    background-color: lawngreen;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+#inp1 {
+    width: 100px;
+}
+
+#inp2 {
+    width: 50px;
+    height: 30px;
+}
+
+#inp3 {
+    width: 70px;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    left: 340px;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/JavaScript/emi.css">
+    <script src="/JavaScript/emi.js"></script>
+</head>
+<body>
+    <div class="div">
+        <div class="div1">
+            <span>Amount you need</span>
+            <input type="text"  id="inp1">
+            <div>
+                <input type="range" style="width: 230px;" id="r1" min="50000" max="4000000" onchange="amount()">
+            </div>
+            <span>₹50,000</span>
+            <span style="position: relative;left: 100px;">₹40,00,000</span>
+
+        </div>
+        <div class="div2">
+            <span>for</span>
+            <input type="text" id="inp2">
+            <span>years</span>
+            <div>
+                <input type="range" id="r2" step="0.1" min="1" max="5" onchange="year()">
+            </div>
+            <span>1year</span>
+            <span style="position: relative;left: 60px;">5year</span>
+            
+        </div>
+        <div class="div3">
+            <span>Interest rate</span>
+            <input type="text" id="inp3">
+            <span>%</span>
+            <div>
+                <input type="range" style="width: 170px;" id="r3" step="0.1" min="10.5" max="22" onchange="interest()">
+            </div>
+            <span>10.5%</span>
+            <span style="position: relative;left: 100px;">21%</span>
+        </div>
+    </div>
+    <div>
+        <button onclick="call()">CALCULATE</button>
+    </div>
+
+    <h1 id="heading"></h1>
+
+    
+</body>
+</html>
